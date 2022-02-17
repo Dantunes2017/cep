@@ -1,0 +1,52 @@
+body{
+    color: white;
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+}
+h1{
+    color: yellow;
+}
+table, td, th{
+    border-color: green;
+    min-width: 120px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: green;
+    text-decoration: none ;
+    background-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    padding: 5px;
+}
+.btn:hover{
+    color: black;
+    background-color: green;
+}
+.button-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.input{
+    color:  white;
+    text-decoration: none ;
+    background-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: green;
+    padding: 5px;
+}
